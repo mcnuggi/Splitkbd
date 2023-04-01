@@ -1,0 +1,207 @@
+(footprint "SK6812MINI-E" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "SK6812MINI-E-1")
+  (tags "LED")
+  (attr smd)
+  (fp_text reference "LED**" (at 0.28 2.57) (layer "F.SilkS")
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp 6db81584-9d09-46b7-af8a-c36eb0765ee2)
+  )
+  (fp_text value "SK6812MINI-E" (at -0.375 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (tstamp a4149bd2-5631-4bc9-805d-fd22e18672e0)
+  )
+  (fp_text user "DOUT" (at -5.33 -0.72 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 103cbd15-30d4-472e-b214-3c7b671b2fb3)
+  )
+  (fp_text user "GND" (at 5.13 -0.81 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 878821e9-51a0-4804-bd0b-ac6768a28f91)
+  )
+  (fp_text user "DIN" (at 4.97 1.12 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8d256c7b-5bf0-482d-b5a8-424eb3141361)
+  )
+  (fp_text user "VDD" (at -4.99 0.84 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f1d1d523-6b50-496d-8602-c0305d353dc1)
+  )
+  (fp_line (start 1.25 1.4) (end 1.25 1.4) (layer "F.SilkS") (width 0.1) (tstamp 13f0001a-8b8d-4c83-8c2b-fa6a607d3ae5))
+  (fp_line (start -1.25 1.4) (end -1.25 1.4) (layer "F.SilkS") (width 0.1) (tstamp 6c287927-a1bc-4a3d-ae32-31caf01cec95))
+  (fp_line (start -1.25 1.4) (end 1.25 1.4) (layer "F.SilkS") (width 0.1) (tstamp 87451a30-170f-4eac-97bd-a69ff2c8a70c))
+  (fp_line (start 1.25 1.4) (end -1.25 1.4) (layer "F.SilkS") (width 0.1) (tstamp ebda1488-f23a-4443-af0b-4c69ce42723a))
+  (fp_rect (start 1.6 -1.41) (end -1.56 1.45) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp bbd2eeef-a7ef-46e5-a170-da031d438089))
+  (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer "F.Fab") (width 0.2) (tstamp 4672a92c-052f-4be4-8604-71e8a925368d))
+  (fp_line (start 1.6 1.4) (end -1.6 1.4) (layer "F.Fab") (width 0.2) (tstamp 46f1c3ae-6fbd-40ae-89f6-4a9fc68ec71c))
+  (fp_line (start 1.6 -1.4) (end 1.6 1.4) (layer "F.Fab") (width 0.2) (tstamp 648077fd-3666-4cf2-bc6b-c5861fbe6ee1))
+  (fp_line (start -1.6 1.4) (end -1.6 -1.4) (layer "F.Fab") (width 0.2) (tstamp df6eba00-42e8-42d4-94ec-de7cc869b1c7))
+  (pad "1" smd rect (at -2.5 0.75 90) (size 0.82 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9845da4a-3b6a-4ffe-92e1-0b04e2ce4f95))
+  (pad "2" smd rect (at -2.5 -0.75 90) (size 0.82 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6c08cbea-f708-4fcc-ad40-0b45a9a98a22))
+  (pad "3" smd rect (at 2.5 -0.75 90) (size 0.82 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3767361d-5458-490e-95ee-d674fcd710fc))
+  (pad "4" smd rect (at 2.5 0.75 90) (size 0.82 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 333cde3f-1380-4279-8ebd-af4abbb1c2f4))
+  (model "SK6812MINI-E.stp"
+    (offset (xyz 0 0 0.5500000037))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
+
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SK6812MINI-E
+#/12655214/1089695/2.49/4/4/LED
+DEF SK6812MINI-E LED 0 30 Y Y 1 F N
+F0 "LED" 950 300 50 H V L CNN
+F1 "SK6812MINI-E" 950 200 50 H V L CNN
+F2 "SK6812MINIE" 950 100 50 H I L CNN
+F3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" 950 0 50 H I L CNN
+F4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" 950 -100 50 H I L CNN "Description"
+F5 "1.88" 950 -200 50 H I L CNN "Height"
+F6 "Yellow Stone Corp." 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SK6812MINI-E" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X DOUT 2 0 -100 200 R 50 50 0 0 P
+X GND 3 1100 -100 200 L 50 50 0 0 P
+X DIN 4 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
+
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MX-LED
+#
+DEF MX-LED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "MX-LED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+C 0 0 14 0 0 5 N
+T 0 225 50 30 0 0 0 COL Normal 0 C C
+T 0 175 0 30 0 0 0 LED Normal 0 C C
+T 900 -50 -175 30 0 0 0 ROW Normal 0 R C
+T 900 0 -125 30 0 1 0 LEDGND Normal 0 R C
+P 2 0 0 5 50 0 25 0 N
+P 2 0 0 5 0 -50 0 -25 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+S -100 100 50 -50 0 0 0 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+X LED 3 100 0 50 L 0 0 1 1 I
+X LEDGND 4 0 -100 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MX-NoLED
+#
+DEF MX-NoLED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "MX-NoLED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+S -100 100 50 -50 0 0 0 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
+
+(module MX_Alps_Hybrid:MXOnly-1U (layer F.Cu) (tedit 5BD3C6C7)
+  (fp_text reference REF** (at 0 3.175) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 1U (at 0 -7.9375) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -9.525 9.525) (end -9.525 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 9.525 9.525) (end -9.525 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 9.525 -9.525) (end 9.525 9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -9.525 -9.525) (end 9.525 -9.525) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -7 -7) (end -7 -5) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -5 -7) (end -7 -7) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -7 7) (end -5 7) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -7 5) (end -7 7) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 7 7) (end 7 5) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 5 7) (end 7 7) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 7 -7) (end 7 -5) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 5 -7) (end 7 -7) (layer Dwgs.User) (width 0.15))
+  (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -5.08 0 48.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -3.81 -2.54) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.54 -5.08) (size 2.25 2.25) (drill 1.47) (layers *.Cu B.Mask))
+)
+
+(footprint "ProMicro" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A06A962)
+  (descr "Pro Micro footprint")
+  (tags "promicro ProMicro")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -10.16) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 814a3750-418a-4d49-bb91-181c9968bc78)
+  )
+  (fp_text value "ProMicro" (at 0 10.16) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d8178ed4-7119-4d47-a01f-4066e5bf06d3)
+  )
+  (fp_line (start 15.24 8.89) (end -15.24 8.89) (layer "B.SilkS") (width 0.15) (tstamp 2f5bcdcf-a0fd-42f3-8849-f4dfa1c9cbe6))
+  (fp_line (start -15.24 3.81) (end -17.78 3.81) (layer "B.SilkS") (width 0.15) (tstamp 4b2dfbf1-64a2-41f5-8060-c8ded671ba3e))
+  (fp_line (start -15.24 8.89) (end -15.24 3.81) (layer "B.SilkS") (width 0.15) (tstamp 64b63e1a-93bb-40e4-8764-cc5fd3127260))
+  (fp_line (start -15.24 -8.89) (end 15.24 -8.89) (layer "B.SilkS") (width 0.15) (tstamp 67ac445f-df07-47a0-a4f8-2c61c438f14d))
+  (fp_line (start -15.24 -3.81) (end -15.24 -8.89) (layer "B.SilkS") (width 0.15) (tstamp 7b95fb7d-4551-476b-bc68-db3354768123))
+  (fp_line (start -17.78 -3.81) (end -15.24 -3.81) (layer "B.SilkS") (width 0.15) (tstamp a009a826-086f-43f0-81a9-5ce57a74d19d))
+  (fp_line (start -17.78 3.81) (end -17.78 -3.81) (layer "B.SilkS") (width 0.15) (tstamp a4ab1a69-0a95-498f-ac4f-c681d25c245b))
+  (fp_line (start 15.24 -8.89) (end 15.24 8.89) (layer "B.SilkS") (width 0.15) (tstamp ed725b8f-7f94-4d43-a6f6-e0db22d1fbfc))
+  (fp_line (start -17.78 3.81) (end -17.78 -3.81) (layer "F.SilkS") (width 0.15) (tstamp 126bdbdd-40c1-4c09-aebf-7958f403a7af))
+  (fp_line (start -17.78 -3.81) (end -15.24 -3.81) (layer "F.SilkS") (width 0.15) (tstamp 1f4339c3-efd7-41a2-8f8d-808313c3be56))
+  (fp_line (start -15.24 -3.81) (end -15.24 -8.89) (layer "F.SilkS") (width 0.15) (tstamp 2b7b4a56-f39c-477c-9dd9-e9eb7657e368))
+  (fp_line (start -15.24 8.89) (end -15.24 3.81) (layer "F.SilkS") (width 0.15) (tstamp 638b7247-b871-4fb7-83e9-8e81b09c0779))
+  (fp_line (start -15.24 3.81) (end -17.78 3.81) (layer "F.SilkS") (width 0.15) (tstamp 639fea79-c53b-4d08-9285-8c0c992190f5))
+  (fp_line (start 15.24 -8.89) (end 15.24 8.89) (layer "F.SilkS") (width 0.15) (tstamp 75fefa09-4647-4f44-b16e-132b862ceab0))
+  (fp_line (start -15.24 -8.89) (end 15.24 -8.89) (layer "F.SilkS") (width 0.15) (tstamp f8687858-c086-41ca-af0b-e9ad20dcba6c))
+  (fp_line (start -15.24 8.89) (end 15.24 8.89) (layer "F.SilkS") (width 0.15) (tstamp fd82634f-8146-4590-84bb-fe3a9152ee16))
+  (pad "1" thru_hole rect (at -13.97 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 0fcfe392-19f3-429f-96e0-8752f964fbe2))
+  (pad "2" thru_hole circle (at -11.43 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp b26cf356-a825-4774-af84-b3dcc665c51f))
+  (pad "3" thru_hole circle (at -8.89 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 0045e9ef-4a96-4f7f-97ad-3e9b9bdd1a8d))
+  (pad "4" thru_hole circle (at -6.35 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 337a4228-2ea0-4a3c-9f79-cd07b56e7e4d))
+  (pad "5" thru_hole circle (at -3.81 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp c6632eca-1161-497d-92ea-e1811b26ca8e))
+  (pad "6" thru_hole circle (at -1.27 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 3a761c2b-7bee-4d01-bb77-78640f4f61b6))
+  (pad "7" thru_hole circle (at 1.27 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 3748e6b3-c4d2-4afe-bb17-2020a8b379bf))
+  (pad "8" thru_hole circle (at 3.81 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 43e57e7d-e5d5-41e0-9711-0bfa5cf220c4))
+  (pad "9" thru_hole circle (at 6.35 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 65a0489a-7a26-4fe6-a136-092ec2decd7e))
+  (pad "10" thru_hole circle (at 8.89 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 9cea18a4-e3f9-4d28-8b5f-62ce3c71aed8))
+  (pad "11" thru_hole circle (at 11.43 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp b4b54493-9787-493d-bd59-6341c465de56))
+  (pad "12" thru_hole circle (at 13.97 7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp a464c97f-560e-43ce-b1ce-6d6176fc16bf))
+  (pad "13" thru_hole circle (at 13.97 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 9b9e9760-9bb3-4984-8bf5-b5ca26932b7b))
+  (pad "14" thru_hole circle (at 11.43 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 9abd8d85-aaac-4f5a-8592-d85a823657c3))
+  (pad "15" thru_hole circle (at 8.89 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp ccd0e7c7-1389-46e0-9f21-51924cc8b935))
+  (pad "16" thru_hole circle (at 6.35 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 00d4f543-bdc1-41de-b758-e4072df537e7))
+  (pad "17" thru_hole circle (at 3.81 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp c982626f-ddca-4391-8209-9bb6dd473798))
+  (pad "18" thru_hole circle (at 1.27 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 9d88f8ef-3de1-45fb-9440-f1f4458796ea))
+  (pad "19" thru_hole circle (at -1.27 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 39d75907-f08a-4321-aec4-279d8d31afd4))
+  (pad "20" thru_hole circle (at -3.81 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 4aa906e0-6063-49d0-b5b1-0007295498fa))
+  (pad "21" thru_hole circle (at -6.35 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 7d74321e-7b81-4cd4-b724-e17714884222))
+  (pad "22" thru_hole circle (at -8.89 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 8ad555e8-7acd-4650-8cde-a09eeffea862))
+  (pad "23" thru_hole circle (at -11.43 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp b7656111-9d99-47ad-8769-bc88002b73d4))
+  (pad "24" thru_hole circle (at -13.97 -7.62) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask "F.SilkS") (tstamp 06e2b173-a27a-4b61-8def-dcc9b174517a))
+)
